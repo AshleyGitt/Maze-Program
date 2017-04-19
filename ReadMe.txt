@@ -1,0 +1,6 @@
+Ashley Gittens                                4/21/2015
+
+Maze Program
+
+The Maze program that I have written read in a file that the user provides that represents a maze and outputs a path that it could find from the origin to the destination.It reads the first line of the text file that contains the amount of rows and columns of the maze. The user chooses whether they want to find only one path or all paths. The ‘-’ is recognized as a wall and a ‘.’ is recognized as a pathway. A 2D array is used to store the types of cells. The starting point is at 0,0 and I used a recursive function (solveMaze) to determine how to proceed to a different cell. My program also outputs whether a path was found or not found. My program also uses backtracking to handle dead ends. My output shows the path by numbering the cells from start to finish for all paths of the maze. I have not encountered any bugs. To run my file, you will have to have a maze text file with the amount of rows and columns on the top row and a maze consisting of ‘.’ and ‘-’. You will have to choose between one path or all paths. The program can be compiled by typing in make all in the computer terminal. It took me about 40 hours to complete this homework.
+
